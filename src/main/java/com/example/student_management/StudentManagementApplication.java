@@ -14,6 +14,7 @@ public class StudentManagementApplication {
 
 	@Bean
 	public BCryptPasswordEncoder passwordEncoder(){
+		System.out.println("checking console");
 		return new BCryptPasswordEncoder();
 	}
 
